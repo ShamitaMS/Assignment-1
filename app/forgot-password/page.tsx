@@ -17,7 +17,7 @@ export default function ForgotPasswordPage() {
             <Button type="submit" className="w-full">Reset Password</Button>
           </form>
           <div className="mt-4 text-center">
-            <Link href="/" className="text-primary hover:underline">
+            <Link href="/" className="text-primary hover:underline"> 
               Back to Login
             </Link>
           </div>
