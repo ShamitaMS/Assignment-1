@@ -13,7 +13,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <script dangerouslySetInnerHTML={{
           __html: `
-            (function() {
+            (function() { 
               function getInitialColorMode() {
                 const persistedColorPreference = window.localStorage.getItem('theme');
                 const hasPersistedPreference = typeof persistedColorPreference === 'string';
